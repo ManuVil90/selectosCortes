@@ -87,34 +87,31 @@ export const navLinks = [
         path: "Products",
         text: "Products",
     },
+    /* 
     {
         id: 3,
         path: "Testimonial",
         text: "Testimonial"
     },
+    */
     {
-        id: 4,
+        id: 3,
         path: "faq",
         text: "FAQ",
     },
     {
-        id: 5,
+        id: 4,
         path: "About",
         text: "About",
     }
 ]
 
 
-export const productsStar = [
+export const productsBeef = [
   {
     id: 1,
     image: KelasImage1,
     title: "Cowboy",
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
     price: "₡20.000",
     buy: "Solicitalo Aquí",
   },
@@ -122,22 +119,12 @@ export const productsStar = [
     id: 2,
     image: KelasImage2,
     title: "T-Bone",
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
     price: "₡20.000",
     buy: "Solicitalo Aquí",
   },
   {
     id: 3,
     image: KelasImage3,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
     title: "Rib Eye",
     price: "₡20.000",
     buy: "Solicitalo Aquí",
@@ -146,11 +133,6 @@ export const productsStar = [
   {
     id: 4,
     image: KelasImage4,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
     title: "Lomo Ancho",
     price: "₡20.000",
     buy: "Solicitalo Aquí",
@@ -158,11 +140,6 @@ export const productsStar = [
   {
     id: 5,
     image: KelasImage5,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
     title: "Carne molida Premium",
     price: "₡20.000",
     buy: "Solicitalo Aquí",
@@ -170,11 +147,98 @@ export const productsStar = [
   {
     id: 6,
     image: KelasImage6,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
+    title: "Posta",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+];
+
+export const productsChicken = [
+  {
+    id: 1,
+    image: KelasImage1,
+    title: "Cowboy",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 2,
+    image: KelasImage2,
+    title: "T-Bone",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 3,
+    image: KelasImage3,
+    title: "Rib Eye",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+
+  },
+  {
+    id: 4,
+    image: KelasImage4,
+    title: "Lomo Ancho",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 5,
+    image: KelasImage5,
+    title: "Carne molida Premium",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 6,
+    image: KelasImage6,
+    title: "Posta",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+];
+
+export const productsPig = [
+  {
+    id: 1,
+    image: KelasImage1,
+    title: "Cowboy",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 2,
+    image: KelasImage2,
+    title: "T-Bone",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 3,
+    image: KelasImage3,
+    title: "Rib Eye",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+
+  },
+  {
+    id: 4,
+    image: KelasImage4,
+    title: "Lomo Ancho",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 5,
+    image: KelasImage5,
+    title: "Carne molida Premium",
+    price: "₡20.000",
+    buy: "Solicitalo Aquí",
+  },
+  {
+    id: 6,
+    image: KelasImage6,
     title: "Posta",
     price: "₡20.000",
     buy: "Solicitalo Aquí",

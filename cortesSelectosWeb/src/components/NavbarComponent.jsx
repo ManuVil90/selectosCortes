@@ -24,6 +24,7 @@ const NavbarComponent = () => {
         window.addEventListener("scroll", changeBackgroundColor);
     })
 
+
     return (
         <div>
             <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
@@ -36,7 +37,7 @@ const NavbarComponent = () => {
                                 return (
                                     <div className="nav-link" key={link.id}>
                                         <NavLink to={link.path} className={({ isActive, isPending }) => isPending ? "pending" :
-                                        isActive ? "active" : ""} end >{link.text}</NavLink>
+                                            isActive ? "active" : ""} end >{link.text}</NavLink>
                                     </div>
                                 );
                             })}
