@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from '../assets/img/carneUno.png';
-import LogoImage from '../assets/img/cortesPlusLogo.png'
 
 import { productsBeef } from "../data/index";
 import {useNavigate} from "react-router-dom";
