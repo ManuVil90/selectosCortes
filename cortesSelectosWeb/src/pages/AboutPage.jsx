@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import AboutimaUno from "../assets/img/about-1.png"
-import AboutimaDos from "../assets/img/about-2.png"
+import AboutimaUno from "../assets/img/carneUno.png"
+import AboutimaDos from "../assets/img/carneUno.png"
 
 const AboutPage = () => {
     return (
@@ -22,7 +22,7 @@ const AboutPage = () => {
                             <img src={AboutimaDos} alt="hero-img " />
                         </Col>
                         <Col lg="6">
-                            <h1 className="mb-4 text-center">Misión</h1>
+                            <h1 className="mb-4 text-center">Vision</h1>
                             <p className="mb-4">Somos la fuente confiable de carne fresca y calidad en Costa Rica. Nuestra misión es satisfacer a nuestros clientes mediante la entrega de productos cárnicos excepcionales, promoviendo al mismo tiempo la salud y el bienestar a través de una alimentación nutritiva y deliciosa en todo el país.</p>
                         </Col>
                     </Row>
