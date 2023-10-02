@@ -86,15 +86,14 @@ const HomePage = () => {
                             </Col>
                         })}
                     </Row>
-                    {/*
                     <Row>
                         <Col className="text-center">
-                        <button className="btn btn-success rounded-5 btn-lg" onClick={() =>navigate("/products") }>
-                            Todos los Productos<i className="fa-solid fa-chevron-right ms-2"></i></button>
+                        <button className="btn btn-success rounded-5 btn-lg" onClick={() => 
+                        {window.location.href = 'https://wa.me/60113194'; }}>
+                            Consulte por nuestro productos<i className="fa-solid fa-chevron-right ms-2"></i></button>
                         
                         </Col>
                     </Row>
-                    */}
                 </Container>
             </div>
             <div>

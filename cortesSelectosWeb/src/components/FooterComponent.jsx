@@ -41,7 +41,7 @@ const FooterComponent = () => {
                         <div className="social mt-3">
                             <i className="fa-brands fa-facebook"></i>
                             <i className="fa-brands fa-instagram"></i>
-                            <a href="https://api.whatsapp.com/send?phone=" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=50660113194" target="_blank">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
                         </div>

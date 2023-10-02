@@ -1,13 +1,3 @@
-import KelasImage1 from "../assets/img/products/kelas-1.jpg";
-import KelasImage2 from "../assets/img/products/kelas-2.jpg";
-import KelasImage3 from "../assets/img/products/kelas-3.jpg";
-import KelasImage4 from "../assets/img/products/kelas-4.jpg";
-import KelasImage5 from "../assets/img/products/kelas-5.jpg";
-import KelasImage6 from "../assets/img/products/kelas-6.jpg";
-import KelasImage7 from "../assets/img/products/kelas-7.jpg";
-import KelasImage8 from "../assets/img/products/kelas-8.jpg";
-import KelasImage9 from "../assets/img/products/kelas-9.jpg";
-
 import	imgUno	from 	"../assets/img/products/imgRes-2.png";
 import	imgDos	from 	"../assets/img/products/imgRes-5.png";
 import	imgTres	from 	"../assets/img/products/imgRes-9.png";
@@ -35,84 +25,159 @@ import	imgDiezyseis	from 	"../assets/img/products/imgCerdo-22.png";
 import	imgDiezysiete	from 	"../assets/img/products/imgCerdo-23.png";
 import	imgDiezyocho	from 	"../assets/img/products/imgEmbutidos-1.png";
 
-
-
-
-
-
-
-
-
-
-
-
 export const allProducts = [
-    {
-      id: 1,
-      image: KelasImage1,
-      title: "Cowboy",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-    {
-      id: 2,
-      image: KelasImage2,
-      title: "T-Bone",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-    {
-      id: 3,
-      image: KelasImage3,
-      title: "Rib Eye",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
+  {
+    id: 1,
+    image: imgUno,
+    title: "Bistec",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 2,
+    image: imgDos,
+    title: "Carne Molida Premium",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 3,
+    image: imgTres,
+    title: "Costilla de Res",
+    price: "",
+    buy: "",
 
-    },
-    {
-      id: 4,
-      image: KelasImage4,
-      title: "Lomo Ancho",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-    {
-      id: 5,
-      image: KelasImage5,
-      title: "Carne molida Premium",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-    {
-      id: 6,
-      image: KelasImage6,
-      title: "Posta",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-    {
-      id: 7,
-      image: KelasImage7,
-      title: "Aguja",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-    {
-      id: 8,
-      image: KelasImage8,
-      title: "Medallon de res",
-      price: "₡20.000",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",buy: "Solicitalo Aquí",
-    },
-    {
-      id: 9,
-      image: KelasImage9,
-      title: "Mano de piedra",
-      price: "₡20.000",
-      buy: "Solicitalo Aquí",
-    },
-  ];
+  },
+  {
+    id: 4,
+    image: imgCuatro,
+    title: "Lomito de Res",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 5,
+    image: imgCinco,
+    title: "Medallon de Lomito de Res",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 6,
+    image: imgSeis,
+    title: "Rib Eye",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 7,
+    image: imgSiete,
+    title: "T-Bone",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 8,
+    image: imgOcho,
+    title: "Tomahawk",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 9,
+    image: imgDiez,
+    title: "Trocitos de Res",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 10,
+    image: imgVentiseis,
+    title: "Pollo Entero",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 11,
+    image: imgDiezynueve,
+    title: "Ala",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 12,
+    image: imgVenticinco,
+    title: "Pechuga Deshuesada",
+    price: "",
+    buy: "",
+
+  },
+  {
+    id: 13,
+    image: imgVeintiuno,
+    title: "Muslo",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 14,
+    image: imgVenticuatro,
+    title: "Pechuga de Pollo con Hueso",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 15,
+    image: imgOnce,
+    title: "Chuleta de Cerdo",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 16,
+    image: imgDoce,
+    title: "Costilla de Cerdo",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 17,
+    image: imgDiezysiete,
+    title: "Carne Molida de Cerdo",
+    price: "",
+    buy: "",
+
+  },
+  {
+    id: 18,
+    image: imgCatorce,
+    title: "Posta de Cerdo",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 19,
+    image: imgQuince,
+    title: "Trocitos de Cerdo",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 20,
+    image: imgDiezyseis,
+    title: "Pierna de Cerdo",
+    price: "",
+    buy: "",
+  },
+  {
+    id: 21,
+    image: imgDiezyocho,
+    title: "Chorizo",
+    price: "",
+    buy: "",
+  },
+
+];
 
 export const navLinks = [
     {
@@ -244,32 +309,12 @@ export const productsChicken = [
   },
   {
     id: 5,
-    image: imgVentidos,
-    title: "Pasta de Pollo",
-    price: "",
-    buy: "",
-  },
-  {
-    id: 6,
     image: imgVenticuatro,
     title: "Pechuga de Pollo con Hueso",
     price: "",
     buy: "",
   },
-  {
-    id: 7,
-    image: imgVenticuatro,
-    title: "Corazón de Pollo",
-    price: "",
-    buy: "",
-  },
-  {
-    id: 8,
-    image: imgVentitres,
-    title: "Patas de Pollo",
-    price: "",
-    buy: "",
-  },
+
 ];
 
 export const productsPig = [
@@ -320,13 +365,6 @@ export const productsPig = [
     id: 7,
     image: imgDiezyocho,
     title: "Chorizo",
-    price: "",
-    buy: "",
-  },
-  {
-    id: 8,
-    image: imgTrece,
-    title: "Pezuña",
     price: "",
     buy: "",
   },
