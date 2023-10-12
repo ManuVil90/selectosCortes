@@ -4,7 +4,7 @@ import HeroImage from '../assets/img/carneUno.png';
 import { productsBeef } from "../data/index";
 import { productsChicken } from "../data/index";
 import { productsPig } from "../data/index";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import FaqComponent from "../components/FaqComponent";
 
 const HomePage = () => {
@@ -21,8 +21,8 @@ const HomePage = () => {
                             <h1 className="mb-4 text-center"><span>Cortes Plus</span><br />Los mejores cortes<br />a su mesa.</h1>
                             <p className="mb-4">Somos, tu destino confiable para carnes frescas y de calidad superior. Nos especializamos en ofrecer una amplia selección de carne de res, pollo y cerdo, asegurando frescura y sabor excepcionales en cada corte. Descubre la diferencia en cada bocado con nuestros productos cuidadosamente seleccionados y servicio de primera clase.</p>
 
-                            <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2" onClick={() =>navigate("/products") } >
-                            Productos</button>
+                            <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2" onClick={() => navigate("/products")} >
+                                Productos</button>
                         </Col>
                         <Col lg="6" className="pt-lg-0 pt-5">
                             <img src={HeroImage} alt="hero-img " />
@@ -41,7 +41,7 @@ const HomePage = () => {
                     <Row>
                         {productsBeef.map((products) => {
                             return <Col key={products.id}>
-                                <img src={products.image} alt="unsplash.com" className="w-100 mb-5 rounded-top"/>
+                                <img src={products.image} alt="unsplash.com" className="w-100 mb-5 rounded-top" />
                                 <h5 className="mb-5 px-3">{products.title}</h5>
                                 <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                                     {/*<p className="m-0 text-primary fw-bold">{products.price}</p>
@@ -59,7 +59,7 @@ const HomePage = () => {
                     <Row>
                         {productsChicken.map((productsChi) => {
                             return <Col key={productsChi.id}>
-                                <img src={productsChi.image} alt="unsplash.com" className="w-100 mb-5 rounded-top"/>
+                                <img src={productsChi.image} alt="unsplash.com" className="w-100 mb-5 rounded-top" />
                                 <h5 className="mb-5 px-3">{productsChi.title}</h5>
                                 <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                                     {/*<p className="m-0 text-primary fw-bold">{products.price}</p>
@@ -77,7 +77,7 @@ const HomePage = () => {
                     <Row>
                         {productsPig.map((productsPi) => {
                             return <Col key={productsPi.id}>
-                                <img src={productsPi.image} alt="unsplash.com" className="w-100 mb-5 rounded-top"/>
+                                <img src={productsPi.image} alt="unsplash.com" className="w-100 mb-5 rounded-top" />
                                 <h5 className="mb-5 px-3">{productsPi.title}</h5>
                                 <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                                     {/*<p className="m-0 text-primary fw-bold">{products.price}</p>
@@ -88,10 +88,14 @@ const HomePage = () => {
                     </Row>
                     <Row>
                         <Col className="text-center">
-                        <button className="btn btn-success rounded-5 btn-lg" onClick={() => 
-                        {window.location.href = 'https://wa.me/60113194'; }}>
-                            Consulte por nuestro productos<i className="fa-solid fa-chevron-right ms-2"></i></button>
-                        
+                            <button className="btn btn-success rounded-5 btn-lg" onClick={() => {
+                                const mensajeBienvenida = encodeURIComponent("¡Bienvenido a Cortes Selectos! Estamos encantados de que estés aquí. Si tienes alguna pregunta, necesitas asistencia o estás interesado en nuestros productos, nuestro equipo está listo para ayudarte. ¡No dudes en escribirnos y te responderemos lo más pronto posible!");
+
+                                window.open(`https://wa.me/+50660113194?text=${mensajeBienvenida}`, '_blank');
+                            }}>
+                                Consulte por nuestros productos<i className="fa-solid fa-chevron-right ms-2"></i>
+                            </button>
+
                         </Col>
                     </Row>
                 </Container>

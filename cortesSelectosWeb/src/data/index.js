@@ -183,12 +183,12 @@ export const navLinks = [
     {
         id: 1,
         path: "",
-        text: "Home",
+        text: "Cortes Selectos",
     },
     {
         id: 2,
         path: "Products",
-        text: "Products",
+        text: "Productos",
     },
     /* 
     {
@@ -205,7 +205,7 @@ export const navLinks = [
     {
         id: 4,
         path: "About",
-        text: "About",
+        text: "Nosotros",
     }
 ]
 
@@ -374,49 +374,37 @@ export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Realizan envios a todo Costa Rica",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "¿Cuáles son los tipos de carne que distribuyen?",
+    desc: "Distribuimos una amplia variedad de carnes, incluyendo cualquier tipo de corte de res, pollo o cerdo. Nuestro catálogo abarca desde cortes clásicos hasta opciones más especializadas. Estamos comprometidos con ofrecer productos de alta calidad y cumplir con las necesidades específicas de nuestros clientes.",
   },
   {
     id: 2,
     eventKey: 1,
-    title: "¿Tienen contes al detalle?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "¿Ofrecen servicios de entrega?",
+    desc: "Sí, ofrecemos servicios de entrega confiables a nivel nacional. Nuestro equipo logístico se esfuerza por cumplir con los plazos de entrega y garantizar que los productos lleguen en condiciones óptimas.",
   },
   {
     id: 3,
     eventKey: 2,
-    title: "Venden al mayoreo",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "¿Tienen un equipo de atención al cliente?",
+    desc: "Sí, contamos con un equipo dedicado de atención al cliente listo para ayudarte con cualquier consulta, solicitud o problema. Puedes comunicarte con nosotros a través de nuestro WhatsApp 8877-1011 o nuestro correo ventas@cortespluspinares.com",
   },
   {
     id: 4,
     eventKey: 3,
-    title: "¿Cómo son sus precios?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "¿Pueden adaptarse a necesidades específicas de pedidos?",
+    desc: "Sí, estamos dispuestos a adaptar nuestros productos y servicios para satisfacer las necesidades específicas de cada cliente. Trabajamos de cerca con nuestros clientes para garantizar su satisfacción.",
   },
   {
     id: 5,
     eventKey: 4,
-    title: "Donde los podemos contactar",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "¿Cómo puedo abrir una cuenta comercial con su empresa?",
+    desc: "Abrir una cuenta comercial con nosotros es fácil. Simplemente ponte en contacto con nuestro equipo de ventas a través de nuestro WhatsApp 8877-1011 o nuestro correo ventas@cortespluspinares.com y estaremos encantados de guiarte a través del proceso.",
   },
   {
     id: 6,
     eventKey: 5,
-    title: "Es carne 100% nacional",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
-  {
-    id: 7,
-    eventKey: 6,
-    title: "Es carne 100% nacional",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
-  {
-    id: 8,
-    eventKey: 7,
-    title: "Es carne 100% nacional",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "¿Cuál es la capacidad de suministro de su empresa?",
+    desc: "Tenemos la capacidad de satisfacer grandes volúmenes de pedidos y adaptarnos a las demandas cambiantes. Nuestra infraestructura nos permite garantizar un suministro constante y eficiente.",
   },
 ];
