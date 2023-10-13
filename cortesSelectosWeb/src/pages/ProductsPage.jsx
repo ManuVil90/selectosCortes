@@ -9,7 +9,6 @@ const ProductsPage = () => {
                     <Row>
                         <Col>
                             <h1 className="text-center fw-bold">Productos</h1>
-                            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </Col>
                     </Row>
                     <Row>

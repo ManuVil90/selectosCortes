@@ -10,21 +10,21 @@ const FooterComponent = () => {
                         <h3 className="fw-bold">Cortes Selectos</h3>
                         <p className="desc">Nos especializamos en ofrecer una amplia selección de carne de res, pollo y cerdo, asegurando frescura y sabor excepcionales en cada corte. </p>
                         <div className="no mb-1 mt-4">
-                            <Link className="text-decoration-none">
+                            <Link className="text-decoration-none" style={{ pointerEvents: 'none' }}>
                                 <i className="fas fa-phone"></i>
                                 <p className="m-0">2440-1675</p>
                             </Link>
-                            <Link className="text-decoration-none">
+                            <Link className="text-decoration-none" style={{ pointerEvents: 'none' }}>
                                 <i className="fas fa-phone"></i>
                                 <p className="m-0">8877-1011</p>
                             </Link>
                         </div>
                         <div className="mail">
-                            <Link className="text-decoration-none">
+                            <Link className="text-decoration-none" style={{ pointerEvents: 'none' }}>
                                 <i className="fa-regular fa-envelope"></i>
                                 <p className="m-0">ventas@cortespluspinares.com</p>
                             </Link>
-                            <Link className="text-decoration-none">
+                            <Link className="text-decoration-none" style={{ pointerEvents: 'none' }}>
                                 <i className="fa-regular fa-envelope"></i>
                                 <p className="m-0">facturación@cortespluspinares.com</p>
                             </Link>
@@ -48,7 +48,7 @@ const FooterComponent = () => {
                             {/** 
                             <i className="fa-brands fa-facebook"></i>
                             <i className="fa-brands fa-instagram"></i>*/}
-                            <a href="https://api.whatsapp.com/send?phone=50688771011" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=50687771011" target="_blank">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
                         </div>

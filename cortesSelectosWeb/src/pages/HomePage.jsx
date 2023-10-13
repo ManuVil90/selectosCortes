@@ -35,7 +35,6 @@ const HomePage = () => {
                     <Row>
                         <Col>
                             <h1 className="text-center fw-bold">Carne de Res</h1>
-                            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </Col>
                     </Row>
                     <Row>
@@ -53,7 +52,6 @@ const HomePage = () => {
                     <Row>
                         <Col>
                             <h1 className="text-center fw-bold">Pollo</h1>
-                            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </Col>
                     </Row>
                     <Row>
@@ -71,7 +69,6 @@ const HomePage = () => {
                     <Row>
                         <Col>
                             <h1 className="text-center fw-bold">Cerdo</h1>
-                            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </Col>
                     </Row>
                     <Row>
