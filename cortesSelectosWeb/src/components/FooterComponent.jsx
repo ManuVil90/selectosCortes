@@ -16,7 +16,7 @@ const FooterComponent = () => {
                             </Link>
                             <Link className="text-decoration-none" style={{ pointerEvents: 'none' }}>
                                 <i className="fas fa-phone"></i>
-                                <p className="m-0">8877-1011</p>
+                                <p className="m-0">8777-1011</p>
                             </Link>
                         </div>
                         <div className="mail">
