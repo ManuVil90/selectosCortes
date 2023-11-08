@@ -38,12 +38,12 @@ const FooterComponent = () => {
                         <Link to="/about">Nosotros</Link>
                     </Col>
                     <Col lg="4" className="mt-lg-0 mt-5">
-                        <h5 className="fw-bold mb3">Descarga nuestro catalogo</h5>
-                        <div className="subscribes">
+                        <h5 className="fw-bold mb3">Redes Sociales</h5>
+                        {/**<div className="subscribes">
                             <a href="">
-                                <button className="btn btn-danger rounded-1 me-2 mb-xs-0 mb-2">Descargar</button>
+                                <button className="btn btn-danger rounded-1 me-2 mb-xs-0 mb-2">WhatsApp</button>
                             </a>
-                        </div>
+                        </div>*/}
                         <div className="social mt-3">
                             {/** 
                             <i className="fa-brands fa-facebook"></i>

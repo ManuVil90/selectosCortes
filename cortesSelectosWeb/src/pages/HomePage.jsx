@@ -86,7 +86,7 @@ const HomePage = () => {
                     <Row>
                         <Col className="text-center">
                             <button className="btn btn-success rounded-5 btn-lg" onClick={() => {
-                                const mensajeBienvenida = encodeURIComponent("¡Bienvenido a Cortes Selectos! Estamos encantados de que estés aquí. Si tienes alguna pregunta, necesitas asistencia o estás interesado en nuestros productos, nuestro equipo está listo para ayudarte. ¡No dudes en escribirnos y te responderemos lo más pronto posible!");
+                                const mensajeBienvenida = encodeURIComponent("¡Bienvenido a Cortes Plus! Estamos encantados de que estés aquí. Si tienes alguna pregunta, necesitas asistencia o estás interesado en nuestros productos, nuestro equipo está listo para ayudarte. ¡No dudes en escribirnos y te responderemos lo más pronto posible!");
 
                                 window.open(`https://wa.me/+50660113194?text=${mensajeBienvenida}`, '_blank');
                             }}>
