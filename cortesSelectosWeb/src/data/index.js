@@ -399,7 +399,7 @@ export const faq = [
     id: 5,
     eventKey: 4,
     title: "¿Cómo puedo abrir una cuenta comercial con su empresa?",
-    desc: "Abrir una cuenta comercial con nosotros es fácil. Simplemente ponte en contacto con nuestro equipo de ventas a través de nuestro WhatsApp 8877-1011 o nuestro correo ventas@cortespluspinares.com y estaremos encantados de guiarte a través del proceso.",
+    desc: "Abrir una cuenta comercial con nosotros es fácil. Simplemente ponte en contacto con nuestro equipo de ventas a través de nuestro WhatsApp 8777-1011 o nuestro correo ventas@cortespluspinares.com y estaremos encantados de guiarte a través del proceso.",
   },
   {
     id: 6,
