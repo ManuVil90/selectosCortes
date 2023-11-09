@@ -387,7 +387,7 @@ export const faq = [
     id: 3,
     eventKey: 2,
     title: "¿Tienen un equipo de atención al cliente?",
-    desc: "Sí, contamos con un equipo dedicado de atención al cliente listo para ayudarte con cualquier consulta, solicitud o problema. Puedes comunicarte con nosotros a través de nuestro WhatsApp 8877-1011 o nuestro correo ventas@cortespluspinares.com",
+    desc: "Sí, contamos con un equipo dedicado de atención al cliente listo para ayudarte con cualquier consulta, solicitud o problema. Puedes comunicarte con nosotros a través de nuestro WhatsApp 8777-1011 o nuestro correo ventas@cortespluspinares.com",
   },
   {
     id: 4,
